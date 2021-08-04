@@ -32,14 +32,9 @@
     color: white;
     text-align: center;
 }
-.frm{
-width: 50%;
-}
 .contact{
     background-color: rgba(249, 12, 12, 0.75);
     color: white;
-    padding: 50px;
-    margin-left: 50px;
 }
 .gtit{
     width: fit-content;
@@ -49,7 +44,10 @@ width: 50%;
 .cont{
     box-shadow: 1px 1px 5px gray;
     margin-top: 50px;
-    width: 80%;
+    padding: 20px;
+}
+.frm .contact{
+    padding: 20px;
 }
 .btnblock{
     width: 100%;
@@ -67,7 +65,7 @@ width: 50%;
 
 }
 .footer{
-    height: 300px;
+    min-height: 300px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -91,7 +89,7 @@ width: 50%;
 }
 .follow div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 40px;
 }
 .follow img{
