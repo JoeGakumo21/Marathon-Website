@@ -110,9 +110,12 @@ body {
     margin-bottom: 20px;
     
 }
-* Style Container Inspiration */
+/* Style Container Inspiration */
 #inspiration{
     background-color: #ccc;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .thumbnail{
     margin: 10px;
@@ -121,7 +124,7 @@ body {
     box-shadow: 2px 8px 4px #000;
 }
 .thumbnail img{
-    width: 100%;
+    /* width: 100%; */
     height: auto; 
 }
 .desc{
@@ -131,7 +134,9 @@ body {
 /* Color background for container how start running */
 #cont_running{
     background-color: #ccc;
-   margin-top: -2em;
+   margin-top: -1.5em;
+   padding: 50px;
+
 }
 .left-heading{
     border-bottom: 10px solid #F60E0E;
