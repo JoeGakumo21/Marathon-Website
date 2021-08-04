@@ -113,19 +113,18 @@ body {
 /* Style Container Inspiration */
 #inspiration{
     background-color: #ccc;
-    padding: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 70px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
 }
 .thumbnail{
-    margin: 10px;
-    border: 1px solid #ccc;
-    width: 280px;
-    box-shadow: 2px 8px 4px #000;
+    width: 90%;
+    border: 2px solid #ccc;
+    box-shadow: 2px 3px 7px #000 ;
 }
 .thumbnail img{
-    /* width: 100%; */
-    height: auto; 
+    width: 80%;
+    height: 100%; 
 }
 .desc{
     padding: 15px;
@@ -135,7 +134,7 @@ body {
 #cont_running{
     background-color: #ccc;
    margin-top: -1.5em;
-   padding: 50px;
+   padding: 70px;
 
 }
 .left-heading{
