@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // display
         const li=`
         <li>
-        <div class="collapsible-header orange lighten-4">${guide.Marathon}</div>
-          <div class="collapsible-body white"><span>${guide.Slogan}</span></div>
-          <div class="collapsible-body white"><span>${guide.Running}</span></div>
+        <div class="collapsible-header orange lighten-4">${guide.title}</div>
+          <div class="collapsible-body white"><span>${guide.title}</span></div>
+          <div class="collapsible-body white"><span>${guide.content}</span></div>
         </li>     
         
         `;
@@ -55,6 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
       guideList.innerHTML=html;
     }else{
-      guideList.innerHTML=`<h5 class="center-align">Login to access Marathon Tips</h5>`
+      guideList.innerHTML=`<h5 class="red-text center-align">Login to access Marathon Tips</h5>`
     }
   }
