@@ -149,3 +149,21 @@ body {
     color: #fff;
     padding: 25px;
 }
+/* Style footer */
+#footer{
+    background-color: #260631;
+    color: #fff;
+    padding: 20px;
+    
+}
+.media{
+    display: flex;
+
+}
+.media ul{
+    list-style-type: none;
+}
+.media ul li{
+    float: left;
+    margin: 10px;
+}
