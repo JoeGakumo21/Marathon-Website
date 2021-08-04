@@ -16,19 +16,17 @@
     bottom: 0%;left: 0%;
     right: 0%;
     font-size: 3em;
-
-
 }
 .navigbar{
     background-color: rgba(249, 12, 12, 0.75);
 }
-.navbar{
+.navbarmy{
     display: flex;
     justify-content: space-between;
     text-align: center;
     color: white;
 }
-.navbar a{
+.navbarmy a{
     padding: 20px;
     text-decoration: none;
     color: white;
