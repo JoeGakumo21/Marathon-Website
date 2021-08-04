@@ -60,3 +60,10 @@ width: 50%;
 .conSec{
     display: flex;
 }
+.footer{
+    height: 300px;
+    background-color: #260631;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+}
