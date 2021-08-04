@@ -1,52 +1,50 @@
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
-    box-sizing: border-box;
-    font-family: inherit;
-    font-style: inherit;
+  box-sizing: border-box;
 }
-
 body {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     font-family: inherit;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #B22222;
+
+    background-color:#F60E0E;
     color: #fff;
-}
-
-.logo {
-    font-size: 18px;
+  }
+  .logo {
+    font-size: 24px;
     margin: .85rem;
-}
-
-.menu ul {
+  }
+  .menu ul {
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-.menu li {
+  }
+  .menu li {
     list-style: none;
-}
-
-.menu li a {
+  }
+  .menu li a {
     text-decoration: none;
     color: #fff;
     padding: 14px 16px;
     display: block;
-}
 
-.menu li a:hover {
+    font-size: 18px;
+  }
+  .menu li a:hover {
     background-color: #ccc;
     color: #000;
-}
+  }
+  .toggle-button {
 
-.toggle-button {
     position: absolute;
     top: 1.4rem;
     right: 1rem;
@@ -55,6 +53,7 @@ body {
     justify-content: space-between;
     width: 30px;
     height: 21px;
+
 }
 
 .toggle-button .bar {
@@ -176,4 +175,3 @@ li.list {
     align-items: center;
     justify-content: center;
     align-content: center;
-}
