@@ -128,3 +128,19 @@ body {
     padding: 15px;
     background-color: #fff;
 }
+/* Color background for container how start running */
+#cont_running{
+    background-color: #ccc;
+   margin-top: -2em;
+}
+.left-heading{
+    border-bottom: 10px solid #F60E0E;
+}
+.quote{
+    font-size: 24px;
+}
+#container-quote{
+    background-color: #F60E0E;
+    color: #fff;
+    padding: 25px;
+}
