@@ -110,3 +110,21 @@ body {
     margin-bottom: 20px;
     
 }
+* Style Container Inspiration */
+#inspiration{
+    background-color: #ccc;
+}
+.thumbnail{
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 280px;
+    box-shadow: 2px 8px 4px #000;
+}
+.thumbnail img{
+    width: 100%;
+    height: auto; 
+}
+.desc{
+    padding: 15px;
+    background-color: #fff;
+}
