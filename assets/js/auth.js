@@ -1,4 +1,4 @@
- // get data from firebase to user
+// get data from firebase to user
 db.collection("marathonSports").get().then(snapshot =>{
     setupGuides(snapshot.docs);
 });
@@ -57,11 +57,12 @@ signupForm.addEventListener("submit", (e)=>{
 
         // now we want to grap the modal and close it
         const modal=document.querySelector("#modal-signup");
+        alert("Proceed to Login Account successfully Created");
         // use materilize for modal
         M.Modal.getInstance(modal).close();
         signupForm.reset();
-    }).catch(err =>{
-        alert("user already exist")
+    }).catch(err=>{
+        alert("The user of tha email address exist");
     });
 
 });
@@ -96,6 +97,6 @@ loginForm.addEventListener("submit", (e)=>{
         M.Modal.getInstance(modal).close();
         loginForm.reset();
     }).catch(err=>{
-        alert("Email address or Password missmatch!!!!")
-    });
-});
+        alert("Email or Password Mismatch!!!! Retry again later");
+    })
+})
