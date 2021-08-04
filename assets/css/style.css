@@ -7,12 +7,15 @@
 }
 .bannerimage div{
     margin: auto;
-    color: white;
+    color: rgb(0, 0, 0);
     width: fit-content;
     height: fit-content;
     padding: 20px;
     position: absolute;
-    top: ;
+    top: 90%;
+    bottom: 0%;left: 0%;
+    right: 0%;
+    font-size: 2em;
 
 
 }
