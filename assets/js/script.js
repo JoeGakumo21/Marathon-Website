@@ -4,3 +4,4 @@ const menuLinks = document.getElementsByClassName("menu")[0];
 toggleButton.addEventListener("click", () => {
   menuLinks.classList.toggle("active");
 });
+

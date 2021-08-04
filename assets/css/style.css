@@ -146,10 +146,10 @@ body {
 #container-quote{
     background-color: #F60E0E;
     color: #fff;
-    padding: 25px;
+    padding: 60px;
 }
 /* Style footer */
-#footer{
+#Contact{
     background-color: #260631;
     color: #fff;
     padding: 20px;
@@ -165,4 +165,10 @@ body {
 .media ul li{
     float: left;
     margin: 10px;
+}
+.footer{
+ background-color: #260631;
+ border-top: 1px solid gray;
+ color: #fff;
+ padding: 10px;
 }
