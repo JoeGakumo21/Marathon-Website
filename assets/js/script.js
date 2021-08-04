@@ -1,13 +1,22 @@
 // hiding links
 const loggedOutLinks= document.querySelectorAll(".logged-out");
 const loggedInLinks= document.querySelectorAll(".logged-in");
-
+const acountDetails=document.querySelector(".account-details");
 const setupUI=(user)=>{
   if(user){
+
+    // account information to display on Account
+    const html=`
+    
+    <div orange>Logged in as ${user.email}</div>
+    `
+    acountDetails.innerHTML=html;
     // toggle UI elements
     loggedInLinks.forEach(item => item.style.display ='block');
-    loggedOutLinks.forEach(item => item.style.display ='block');
+    loggedOutLinks.forEach(item => item.style.display ='none');
   }else{
+    // hide accounts info
+    acountDetails.innerHTML=" ";
     // toggle ui elements
     loggedInLinks.forEach(item => item.style.display ='none');
     loggedOutLinks.forEach(item => item.style.display ='block');
