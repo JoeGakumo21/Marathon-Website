@@ -7,3 +7,19 @@ body {
   padding: 0;
   font-family: inherit;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#B22222;
+    color: #fff;
+  }
+  .logo {
+    font-size: 18px;
+    margin: .85rem;
+  }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
