@@ -80,3 +80,12 @@ body {
       display: flex;
     }
   }
+  /* Style Home Section */
+#home{
+    background: url('../images/Home-Page.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 60px;
+    position: relative;
+    color: #fff;
+}
