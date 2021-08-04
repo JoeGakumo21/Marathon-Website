@@ -1,4 +1,4 @@
-// get data from firebase to user
+ // get data from firebase to user
 db.collection("marathonSports").get().then(snapshot =>{
     setupGuides(snapshot.docs);
 });
@@ -60,6 +60,8 @@ signupForm.addEventListener("submit", (e)=>{
         // use materilize for modal
         M.Modal.getInstance(modal).close();
         signupForm.reset();
+    }).catch(err =>{
+        alert("user already exist")
     });
 
 });
@@ -93,5 +95,7 @@ loginForm.addEventListener("submit", (e)=>{
         // use materilize for modal
         M.Modal.getInstance(modal).close();
         loginForm.reset();
+    }).catch(err=>{
+        alert("Email address or Password missmatch!!!!")
     });
-})
+});
