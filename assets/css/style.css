@@ -23,3 +23,16 @@ body {
     padding: 0;
     display: flex;
   }
+  .menu li {
+    list-style: none;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    display: block;
+  }
+  .menu li a:hover {
+    background-color: #ccc;
+    color: #000;
+  }
