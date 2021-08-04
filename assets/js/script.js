@@ -1,3 +1,4 @@
+
 // hiding links
 const loggedOutLinks= document.querySelectorAll(".logged-out");
 const loggedInLinks= document.querySelectorAll(".logged-in");
@@ -58,3 +59,5 @@ document.addEventListener('DOMContentLoaded', function() {
       guideList.innerHTML=`<h5 class="red-text center-align">Login to access Marathon Tips</h5>`
     }
   }
+
+
